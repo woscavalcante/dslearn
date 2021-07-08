@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import com.devsuperior.dslearnbds.entities.pk.EnrollmentPK;
 
 @Entity
-@Table(name = "tb_enrolllment")
+@Table(name = "tb_enrollment")
 public class Enrollment {
 
 	@EmbeddedId
